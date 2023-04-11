@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="SW Release Audit Tool">
+    <configurations>
+      <configuration name="SW Release Audit Tool" target-platform="Desktop" pure-as="true" main-class="projeto.MainDog" output-file="MainDog.swf" output-folder="$MODULE_DIR$/out/production/SW Release Audit Tool">
+        <dependencies target-player="32.0">
+          <sdk name="AIRSDK_Windows" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop package-file-name="SW Release Audit">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/out/production/SW Release Audit Tool/config" path-in-package="config" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/out/production/SW Release Audit Tool/swf" path-in-package="swf" />
+          </files-to-package>
+        </packaging-air-desktop>
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/classes" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_Windows" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

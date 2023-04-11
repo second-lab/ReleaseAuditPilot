@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+  <id>Main</id>
+  <versionNumber>3.32.0</versionNumber>
+  <filename>SWReleaseAudit</filename>
+  <name>R^3</name>
+  <architecture>64</architecture>
+  <description>SWReleaseAudit</description>
+  <supportedProfiles>extendedDesktop desktop</supportedProfiles>
+  <gpuPreference>discrete</gpuPreference>
+  <initialWindow>
+    <title>SW Release Audit</title>
+    <content>bin/SWReleaseAudit.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>`
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+ 
+</application>

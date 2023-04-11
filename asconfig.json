@@ -1,0 +1,67 @@
+
+{
+    "application": "application.xml",
+    "config": "air",
+    "type": "app",
+    "compilerOptions": {
+        "output": "bin/SWReleaseAudit.swf",
+        "source-path": [
+			"classes/"
+		  ],
+        "define": [
+            {
+                "name": "CONFIG::not_air",
+                "value": false
+            },
+            {
+                "name": "CONFIG::air",
+                "value": true
+            },
+            {
+                "name": "CONFIG::debug",
+                "value": false
+            },
+            {
+                "name": "CONFIG::release",
+                "value": true
+            }
+        ],
+        "default-size": {
+            "width": 780,
+            "height": 480
+        },
+        "default-frame-rate": 120,
+        "default-background-color": "#f00fff",
+        "swf-version": 43,
+        "target-player": "35.0"
+    },
+    "files": [
+        "classes/projeto/MainDog.as"
+    ],
+    "airOptions": {
+        
+        "windows": {
+           
+            "output": "bin/SWReleaseAuditTool.air",
+            "signingOptions": {	
+                "storetype": "pkcs12",
+                "keystore": "bat/SWReleaseAuditTool.p12"
+            }
+        },
+        "mac": {
+            "output": "bin/SWReleaseAuditTool.air",
+            "signingOptions": {
+                "storetype": "pkcs12",
+                "keystore": "bat/SWReleaseAuditTool.p12"
+            }
+        }
+
+    }
+   /*
+    "files":[
+        {"file": "bin/config","path": "config"},
+        {"file": "bin/icons","path": "icons"},
+        {"file": "bin/swf","path": "swf"}
+        ]
+        */
+}
